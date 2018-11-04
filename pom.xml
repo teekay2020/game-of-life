@@ -496,3 +496,26 @@
         </profile>
     </profiles>
 </project>
+
+<distributionManagement>
+    
+    <repository>
+        <id>releasess</id>
+        <name>Releases</name>
+        <url>http://127.0.0.1:8081/nexus/#view-repositories;releases</url>
+        </repository>
+    
+       <snapshotRepository>
+           <id>snapshot</id>
+           <name>Snapshots</name>
+           <url>http://127.0.0.1:8081/nexus/#view-repositories;snapshots</url>
+           </snapshotRepository>
+    
+    </distributionManagement>
+
+    </project>
+           
+
+           
+    
+        
